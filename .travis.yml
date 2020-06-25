@@ -6,10 +6,9 @@ script:
   - cd ..
 deploy:
   provider: releases
-  pre-release: true
   api_key: $GITHUB_TOKEN
   skip_cleanup: true
   on:
     repo: SashaRepin2/Lab_6_TRPO
-    branch: dev
+    branch: master
     tags: true
