@@ -1,7 +1,4 @@
-branches:
-  only:
-  - master
-  - dev
+
 import:
 - source: travis/tests.yml
   if: branch = dev
