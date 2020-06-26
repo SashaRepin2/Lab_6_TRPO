@@ -6,7 +6,6 @@ script:
   - cd ..
 deploy:
   provider: releases
-  prerelease: true
   api_key: $GITHUB_TOKEN
   skip_cleanup: true
   on:
