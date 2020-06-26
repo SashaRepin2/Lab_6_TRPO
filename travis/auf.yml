@@ -11,4 +11,4 @@ deploy:
   on:
     repo: SashaRepin2/Lab_6_TRPO
     branch: master
- 
+    tags: true
