@@ -11,5 +11,5 @@ deploy:
   skip_cleanup: true
   on:
     repo: SashaRepin2/Lab_6_TRPO  
-    branch: dev
+    branch: master
     tags: true
