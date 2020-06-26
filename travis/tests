@@ -7,7 +7,7 @@ script:
 deploy:
   provider: releases
   prerelease: true
-  api_key: $GIT_TOKEN
+  api_key: $GITHUB_TOKEN
   skip_cleanup: true
   on:
     repo: SashaRepin2/Lab_6_TRPO
