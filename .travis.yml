@@ -1,8 +1,10 @@
   
 language: python
 python: 3.8
-script:
-  echo Starting test and build...
+branches:
+  only:
+  - master
+  - dev
 import:
 - source: travis/tests.yml
   if: branch = dev
