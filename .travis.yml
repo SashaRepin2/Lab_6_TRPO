@@ -1,4 +1,5 @@
-
+language: python
+python: 3.8
 import:
 - source: travis/tests.yml
   if: branch = dev
