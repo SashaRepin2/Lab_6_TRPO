@@ -7,7 +7,7 @@ branches:
   - master
   - dev
 import:
-- source: travis/tests.yml
+- source: travis/prerelease.yml
   if: branch = dev
-- source: travis/auf.yml
+- source: travis/release.yml
   if: branch = master
